@@ -12,11 +12,12 @@ import {PagesModules} from './pages/pages.module';
 import { APP_ROUTES } from './app-routing.module';
 import {PagesRouteModule} from './pages/pages.routes';
 
+import {FormsModule} from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
+    RegisterComponent
 
 
   ],
@@ -25,7 +26,8 @@ import {PagesRouteModule} from './pages/pages.routes';
     APP_ROUTES,
     PagesModules,
     SharedModule,
-    PagesRouteModule
+    PagesRouteModule,
+    FormsModule
 
   ],
   providers: [
